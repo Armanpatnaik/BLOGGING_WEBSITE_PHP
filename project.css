@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(105, 137, 189);
+}
+ .container{
+    width: 1210px;
+    height: 40px;
+    padding: top 0px;
+ }
+ .maindiv{
+     height: 400px;
+     background-color: rgba(0, 0, 0, 0.433);
+     border-radius: 4px;
+     margin-bottom: 18px;
+ }
+ h1{
+     color: rgb(255, 255, 255);
+     padding-left:30px ;
+     padding-top: 30px;
+     padding-right: 700px;
+     font-size: 60px;
+ }
+ h1+p{
+     color: white;
+     padding-left: 30px;
+     padding-right: 650px;
+     padding-top: 10px;
+     padding-bottom: 30px;
+     font-size: 20px;
+ }
+ .maindiv a{
+     padding-top: 10px;
+     color: white;
+     padding-left: 30px;
+ }
+*{
+    padding: 0px;
+    
+}
+.left1,.right1
+{   width: 550px;
+    height: 195px;
+    background-color: rgb(252, 232, 232);
+    margin-left: 20px;
+    border-radius: 4px;
+    padding: 25px;
+    padding-bottom: 0px;
+    line-height: 25px;
+    border: 1;
+}
+.left2, .right2{
+    width: 100px;
+    height: 130px;
+    background-color: rgb(67, 78, 78);
+    border-radius: 4px;
+    padding-top: 90px;
+    padding-left: 25px;
+}
+#container{
+    display: flex;
+}
+small b{
+    color: darkcyan;
+}
+h3, h6, h5{
+    display: inline;
+    color: black;
+}
+#container2{
+    width: 1000px;
+    height: 30cm;
+    background-color: rgb(252, 251, 253);
+    margin-left: 2px;
+    padding: 10px;
+    border-radius: 3px;
+}
+#container3 {
+    float: right;
+    width: 400px;
+    height: 140px;
+    background-color: rgb(228, 220, 220);
+    margin-left: 2cm;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding-top: 0px;
+    padding-left: 9px;
+    line-height: 19px;
+}
+#container4{
+    float: right;
+    width: 300px;
+    height: 30cm;
+    background-color: rgb(250, 247, 245);
+    margin-left: 2cm;
+    
+}
+.seccontainer{
+    display: flex;
+    margin-top: 1cm;
+}
+#nestcontainer1{
+    display: flex;
+    flex-direction: column;
+}
+
